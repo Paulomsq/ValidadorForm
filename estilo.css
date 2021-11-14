@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+}
+
+.tela{
+    display: flex;
+    height: 100vh;
+}
+
+.leftSide{
+    flex: 1;
+    justify-content: center;
+    
+
+}
+
+.leftSide img{
+    width: 50%;
+    
+    
+}
+
+.rightSide{
+    width: 350px;
+    background-color: #999999;
+    padding: 50px;
+    
+}
+
+.rightSide label{
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.rightSide input{
+    border: 1px solid #8888;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    outline: 0;
+}
+
+.error{
+    font-size: 12px;
+    background-attachment: fixed;
+    background-color: #FF0000;
+    color: aliceblue;
+    border-radius: 0 0 5px 5px;
+    padding: 7px;
+
+}
